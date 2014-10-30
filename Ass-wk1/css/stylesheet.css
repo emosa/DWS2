@@ -17,6 +17,7 @@ body {
     padding:0;
     text-align:center;
 }
+
 .nav li{
     display:inline;
 }
@@ -129,18 +130,27 @@ p + p {
    text-indent: 0.5em;
    margin-bottom: 0;
 }
+
 h1 + p {
 	text-align:center;
 }
+
+@-ms-viewport{
+  width: device-width;
+}
+
 a:link{
   color:#6E8343;
 }
+
 a:visited{
   color:#007C90;
 }
+
 a:hover{
   color:brown;
 }
+
 a:active{
   color:#1DB3C0;
 }
