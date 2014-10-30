@@ -28,7 +28,7 @@ img, object, embed, video {
 
 /* Mobile Layout: 480px and below. */
   
-.nav {
+.gridContainer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 88.0326%;
@@ -50,44 +50,46 @@ img, object, embed, video {
 
 @media only screen and (min-width: 481px) {
 
-.gridContainer {
-	width: 91.4836%;
-	padding-left: 0.7581%;
-	padding-right: 0.7581%;
-	clear: none;
-	float: none;
-	margin-left: auto;
-}
-#div1 {
-}
-.zeroMargin_tablet {
-    margin-left: 0;
-}
-.hide_tablet {
-    display: none;
-}
+	#wrapper {   
+		width: 320px;
+		}
 }
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
 
 @media only screen and (min-width: 769px) {
 
-.gridContainer {
-	width: 89.0217%;
-	max-width: 1232px;
-	padding-left: 0.4891%;
-	padding-right: 0.4891%;
-	margin: auto;
-	clear: none;
-	float: none;
-	margin-left: auto;
+	#wrapper {   
+		width: 100%;
+		}
+	#section {
+		width: 100%;  
+		}
+	
 }
-#div1 {
+
+
+@media screen and (min-width: 900px){
+	#wrapper {   
+		width: 100%;
+	}
+	#section {
+		width: 70%;  
+		}
+	#center-img {
+		width: 100%;
+		}
+	#treat-img {
+		width:30%;
+		}
+	
 }
-.zeroMargin_desktop {
-    margin-left: 0;
-}
-.hide_desktop {
-    display: none;
-}
-}
+
+
+
+
+
+
+
+
+
