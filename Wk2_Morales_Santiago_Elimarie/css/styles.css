@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    padding-top: 50px; 
+	background-image:url(../images/light_grey.png);
+
+}
+
+.wine-header {
+    height: 400px;
+    background: url(../images/winefront.png) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.tittle {
+    text-shadow: 0 0 10px #000;
+    color: #C6AA8D;
+}
+
+h2 {
+	color:#632425;
+	}
+	
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
