@@ -22,20 +22,46 @@ body {
 .text-justify{
 	color:#EB970E;
 	padding:12px;
+	
 }
 
 .subform{
 	padding:12px;
 	}
 
-.info1{
-	position:absolute;
+img {
+    position: absolute;
+    left: 90px;
+    top: 150px;
+    z-index: -0;
+	background-color:transparent;
+    transform:skewX(-2deg);
+	width: 300px;
+    height: 250px;
+    background:transparent;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+	
+}
+
+h2 {
+	padding:12px;
+	
 	}
 	
-.form2{
-	
-}	
-
 .tittle {
     text-shadow: 0 0 10px #000;
     color: #C6AA8D;

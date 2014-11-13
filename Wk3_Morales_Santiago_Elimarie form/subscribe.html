@@ -4,20 +4,22 @@
     <meta charset="utf-8">
         <title>The finest wines from around the world.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap -->
+        
+<!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"> 
         <link href="css/styles.css" rel="stylesheet"> 
         <link href="css/mystylesheet.css" rel="stylesheet">    
     </head>
 
 <body>
-	<!-- javascript -->
-     <script src="js/jquery-1.7.1.js"></script> 
-	 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	 <script src="js/bootstrap.min.js"></script>
- 
+	
+<!-- javascript -->
+         <script src="js/jquery-1.7.1.js"></script> 
+         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
      
-    <!-- Navigation -->
+     
+<!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
        <div class="container">
            <div class="navbar-header">
@@ -25,15 +27,15 @@
                   <span class="sr-only"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
               </button>
-        <a class="navbar-brand" href="#">Wine Masters</a>
-         </div> 
+        			<a class="navbar-brand" href="#">Wine Masters</a>
+           </div> 
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                 	<li>
-                        <a href="#">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="#">Wine Events</a>
@@ -42,7 +44,7 @@
                         <a href="#">Order Online</a>
                     </li>
                     <li>
-                        <a href="#">Wine Club</a>
+                        <a href="subscribe.html">Wine Club</a>
                     </li>
                     <li>
                         <a href="#">About</a>
@@ -57,280 +59,314 @@
         <!-- end container -->
         </nav>
         
-        <!-- Wine image with logo tag line -->
+<!-- Wine image with logo tag line -->
     <header class="form-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="tittle">Join Wine Masters Club</h1>
                    
-                    
+                     <img class="img-rounded img-responsive" src="images/join_us.png" alt=""/>
                 </div>
             </div>
         </div>
-    </header>
-     <!-- End header -->
-     
+    </header>  <!-- End header -->
+   
+<!-- form container -->
      <div class="container">
 
       <hr>
 
-        <div class="row">
-          
-                <h2>Please fill out the form below to join Wine Masters Club.</h2>
-                 <p class="text-justify"> Wine Masters Club provides high quality wines where quality and value coincide. Wine Masters is committed to providing members the opportunity to experience the highest level of quality and value in wine products from around the globe.</p>
-                 <p> Note: * Indicates a required field</p>
-        
+      <div class="row">
+         <h2>Please fill out the form below to join Wine Masters Club.</h2>
+           <p class="text-justify"> Wine Masters Club provides high quality wines where quality and value coincide. Wine Masters is committed to providing members the opportunity to experience the highest level of quality and value in wine products from around the globe.</p>
       </div>
-       
-   </div>
-
+    </div>
 
 <!-- Subscription form -->
-<div class="subform">
-<form class="form-horizontal">
-<fieldset>
+	<div class="subform">
+    	<form class="form-horizontal">
+    		<fieldset>
 
 <!-- Form Name -->
-<legend>Subscription form</legend>
+			<legend>Subscription form</legend>
+  				<p> Note: * Indicates a required field</p>
+
+<!-- collapse 1st panel start -->
+        <div class="panel-group" id="accordion"> 
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" 
+                  href="#collapseOne">
+                  Personal Information</a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body">
 
 <!-- Name input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*Name</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="John" class="form-control input-md" required="">
-    
-  </div>
-</div>
+   	 <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Name</label>  
+          <div class="col-md-4">
+          <input id="textinput" name="textinput" type="text" placeholder="John" class="form-control input-md" required="">
+        
+          </div>
+    </div>
 
 <!-- Last name input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*Last Name</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="Doe" class="form-control input-md" required="">
-    
-  </div>
-</div>
+    <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Last Name</label>  
+          <div class="col-md-4">
+          <input id="textinput" name="textinput" type="text" placeholder="Doe" class="form-control input-md" required="">
+          </div>
+	</div>
 
 <!-- Gender radios -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="radios">*Gender</label>
-  <div class="col-md-4">
-  <div class="radio">
-    <label for="radios-0">
-      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
-      Male
-    </label>
-	</div>
-  <div class="radio">
-    <label for="radios-1">
-      <input type="radio" name="radios" id="radios-1" value="2">
-      Female
-    </label>
-	</div>
-  </div>
-</div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="radios">*Gender</label>
+          <div class="col-md-4">
+              <div class="radio">
+                <label for="radios-0">
+                  <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                  Male
+                </label>
+                </div>
+                  <div class="radio">
+                        <label for="radios-1">
+                          <input type="radio" name="radios" id="radios-1" value="2">
+                          Female
+                        </label>
+                  </div>
+         </div>
+    </div>
 
 <!-- Select Birthdate -->
- <div class="form-group">
-         <label class="col-md-4 control-label" for="radios">*Birthdate</label>
-         <div class="col-md-4">
-                <div class='input-group date' id='datetimepicker2'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon">
-                    <span class="glyphicon glyphicon-calendar"></span>
-                    </span>
+     <div class="form-group">
+     	<label class="col-md-4 control-label" for="radios">*Birthdate</label>
+        	<div class="col-md-4">
+            	<div class='input-group date' id='datetimepicker2'>
+                 	<input type='text' class="form-control" />
+                    	<span class="input-group-addon">
+                        	<span class="glyphicon glyphicon-calendar"></span>
+                        </span>
                 </div>
             </div>
-        </div>
+     </div>
     
 
 <!-- Address input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*Address 1</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
-  <span class="help-block">P.O. Box / # Street</span>  
-  </div>
-</div>
+    <div class="form-group">
+         <label class="col-md-4 control-label" for="textinput">*Address 1</label>  
+          <div class="col-md-4">
+              <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
+              	<span class="help-block">P.O. Box / # Street</span>  
+      	  </div>
+    </div>
 
 <!-- Address 2 input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">Address 2</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
-  <span class="help-block">Apt./Suite</span>  
-  </div>
-</div>
+    <div class="form-group">
+         <label class="col-md-4 control-label" for="textinput">Address 2</label>  
+             <div class="col-md-4">
+                 <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                 	<span class="help-block">Apt./Suite</span>  
+             </div>
+    </div>
 
 <!-- City input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*City</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="Abbeville" class="form-control input-md" required="">
-    
-  </div>
-</div>
+    <div class="form-group">
+      	<label class="col-md-4 control-label" for="textinput">*City</label>  
+      		<div class="col-md-4">
+      			<input id="textinput" name="textinput" type="text" placeholder="Abbeville" class="form-control input-md" required="">
+     		</div>
+    </div>
 
 <!-- Select state drop down -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="buttondropdown">*State</label>
-  <div class="col-md-4">
-    <div class="input-group">
-      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="AL" type="text" required="">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-          Select
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu pull-right">
-          <li><a href="#">AL</a></li>
-          <li><a href="#">AK</a></li>
-          <li><a href="#">AZ</a></li>
-          <li><a href="#">AR</a></li>
-          <li><a href="#">CA</a></li>
-          <li><a href="#">CO</a></li>
-          <li><a href="#">CT</a></li>
-          <li><a href="#">DE</a></li>
-          <li><a href="#">FL</a></li>
-          <li><a href="#">GA</a></li>
-          <li><a href="#">HI</a></li>
-          <li><a href="#">ID</a></li>
-          <li><a href="#">IL</a></li>
-          <li><a href="#">IN</a></li>
-          <li><a href="#">IA</a></li>
-          <li><a href="#">KS</a></li>
-          <li><a href="#">KY</a></li>
-          <li><a href="#">LA</a></li>
-          <li><a href="#">ME</a></li>
-          <li><a href="#">MD</a></li>
-          <li><a href="#">MA</a></li>
-          <li><a href="#">MI</a></li>
-          <li><a href="#">MN</a></li>
-          <li><a href="#">MS</a></li>
-          <li><a href="#">MO</a></li>
-          <li><a href="#">MT</a></li>
-          <li><a href="#">NE</a></li>
-          <li><a href="#">NV</a></li>
-          <li><a href="#">NH</a></li>
-          <li><a href="#">NJ</a></li>
-          <li><a href="#">NM</a></li>
-          <li><a href="#">NY</a></li>
-          <li><a href="#">NC</a></li>
-          <li><a href="#">ND</a></li>
-          <li><a href="#">OH</a></li>
-          <li><a href="#">OK</a></li>
-          <li><a href="#">OR</a></li>
-          <li><a href="#">PA</a></li>
-          <li><a href="#">RI</a></li>
-          <li><a href="#">SC</a></li>
-          <li><a href="#">SD</a></li>
-          <li><a href="#">TN</a></li>
-          <li><a href="#">TX</a></li>
-          <li><a href="#">UT</a></li>
-          <li><a href="#">VT</a></li>
-          <li><a href="#">VA</a></li>
-          <li><a href="#">WA</a></li>
-          <li><a href="#">WV</a></li>
-          <li><a href="#">WI</a></li>
-          <li><a href="#">WY</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="buttondropdown">*State</label>
+          <div class="col-md-4">
+            <div class="input-group">
+              <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="AL" type="text" required="">
+              	<div class="input-group-btn">
+                	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                 	 Select
+                  	<span class="caret"></span>
+                	</button>
+                            <ul class="dropdown-menu pull-right">
+                              <li><a href="#">AL</a></li>
+                              <li><a href="#">AK</a></li>
+                              <li><a href="#">AZ</a></li>
+                              <li><a href="#">AR</a></li>
+                              <li><a href="#">CA</a></li>
+                              <li><a href="#">CO</a></li>
+                              <li><a href="#">CT</a></li>
+                              <li><a href="#">DE</a></li>
+                              <li><a href="#">FL</a></li>
+                              <li><a href="#">GA</a></li>
+                              <li><a href="#">HI</a></li>
+                              <li><a href="#">ID</a></li>
+                              <li><a href="#">IL</a></li>
+                              <li><a href="#">IN</a></li>
+                              <li><a href="#">IA</a></li>
+                              <li><a href="#">KS</a></li>
+                              <li><a href="#">KY</a></li>
+                              <li><a href="#">LA</a></li>
+                              <li><a href="#">ME</a></li>
+                              <li><a href="#">MD</a></li>
+                              <li><a href="#">MA</a></li>
+                              <li><a href="#">MI</a></li>
+                              <li><a href="#">MN</a></li>
+                              <li><a href="#">MS</a></li>
+                              <li><a href="#">MO</a></li>
+                              <li><a href="#">MT</a></li>
+                              <li><a href="#">NE</a></li>
+                              <li><a href="#">NV</a></li>
+                              <li><a href="#">NH</a></li>
+                              <li><a href="#">NJ</a></li>
+                              <li><a href="#">NM</a></li>
+                              <li><a href="#">NY</a></li>
+                              <li><a href="#">NC</a></li>
+                              <li><a href="#">ND</a></li>
+                              <li><a href="#">OH</a></li>
+                              <li><a href="#">OK</a></li>
+                              <li><a href="#">OR</a></li>
+                              <li><a href="#">PA</a></li>
+                              <li><a href="#">RI</a></li>
+                              <li><a href="#">SC</a></li>
+                              <li><a href="#">SD</a></li>
+                              <li><a href="#">TN</a></li>
+                              <li><a href="#">TX</a></li>
+                              <li><a href="#">UT</a></li>
+                              <li><a href="#">VT</a></li>
+                              <li><a href="#">VA</a></li>
+                              <li><a href="#">WA</a></li>
+                              <li><a href="#">WV</a></li>
+                              <li><a href="#">WI</a></li>
+                              <li><a href="#">WY</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
 <!-- Zip Code input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*Zip code</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="10459" class="form-control input-md" required="">
-    
-  </div>
-</div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput">*Zip code</label>  
+      	<div class="col-md-4">
+      		<input id="textinput" name="textinput" type="text" placeholder="10459" class="form-control input-md" required="">
+      	</div>
+    </div>
 
 <!-- Phone input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*Phone number</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="(555)-555-1212" class="form-control input-md" required="">
-    
-  </div>
-</div>
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Phone number</label>  
+              <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="(555)-555-1212" class="form-control input-md" required="">
+              </div>
+        </div>
+
+	</div>
+  </div> 
+</div><!-- end collapse 1st panel -->
+  
+<!-- collapse 2nd panel start -->  
+    <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" 
+              href="#collapseTwo">
+              Email Login</a>
+          </h4>
+        </div>
+         <div id="collapseTwo" class="panel-collapse collapse">
+          <div class="panel-body">
 
 <!-- Email input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">* Email</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="johndoe@gmail.com" class="form-control input-md" required="">
-    
-  </div>
-</div>
+    <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">* Email</label>  
+          <div class="col-md-4">
+          <input id="textinput" name="textinput" type="text" placeholder="johndoe@gmail.com" class="form-control input-md" required="">
+      	  </div>
+    </div>
 
 <!-- Email confirmation input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="textinput">*Confirm email</label>  
-  <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="johndoe@gmail.com" class="form-control input-md" required="">
-    
-  </div>
-</div>
+    <div class="form-group">
+          <label class="col-md-4 control-label" for="textinput">*Confirm email</label>  
+              <div class="col-md-4">
+              <input id="textinput" name="textinput" type="text" placeholder="johndoe@gmail.com" class="form-control input-md" required="">  
+              </div>
+    </div>
 
 <!-- Password input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="passwordinput">*Password</label>
-  <div class="col-md-4">
-    <input id="passwordinput" name="passwordinput" type="password" placeholder="******" class="form-control input-md" required="">
-    <span class="help-block">Passwords must be at least 6 characters</span>
-  </div>
-</div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="passwordinput">*Password</label>
+          <div class="col-md-4">
+            <input id="passwordinput" name="passwordinput" type="password" placeholder="******" class="form-control input-md" required="">
+            <span class="help-block">Passwords must be at least 6 characters</span>
+          </div>
+    </div>
 
 <!-- Password input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="passwordinput">*Confirm password</label>
-  <div class="col-md-4">
-    <input id="passwordinput" name="passwordinput" type="password" placeholder="******" class="form-control input-md" required="">
-    
-  </div>
-</div>
-
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="passwordinput">*Confirm password</label>
+          <div class="col-md-4">
+            <input id="passwordinput" name="passwordinput" type="password" placeholder="******" class="form-control input-md" required="">
+          </div>
+     </div>
+        
+  		</div>
+    </div>
+</div> <!-- end collapse 2nd panel -->
+  
+  
+<!-- collapse 3rd panel start -->   
+   <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseThree">
+          Newsletter Subscription
+           </a>
+      </h4>
+    </div>
+   <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+  
 <!-- Newsletter checkboxes -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="checkboxes">Subscribe to our newsletter</label>
-  <div class="col-md-4">
-    <label class="checkbox-inline" for="checkboxes-0">
-      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
-      Yes
-    </label>
-    <label class="checkbox-inline" for="checkboxes-1">
-      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
-      No
-    </label>
-  </div>
-</div>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="checkboxes">Subscribe to our newsletter</label>
+          <div class="col-md-4">
+                <label class="checkbox-inline" for="checkboxes-0">
+                  <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                  Yes
+                </label>
+                <label class="checkbox-inline" for="checkboxes-1">
+                  <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                  No
+                </label>
+          </div>
+    </div>
 
 <!-- Submit cancel button -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="button1id"></label>
-  <div class="col-md-8">
-    <button id="button1id" name="button1id" class="btn btn-success">Submit</button>
-    <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
-  </div>
-</div>
-
-</fieldset>
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="button1id"></label>
+          <div class="col-md-8">
+            <button id="button1id" name="button1id" class="btn btn-success">Submit</button>
+            <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
+          </div>
+     </div>
+     
+	</fieldset>
 </form>
 
-</div>
-       
-       
-       
-       
-       
-       
-       
-          <hr>
-        <!-- Footer -->
+	</div>
+   </div>
+  </div>
+ </div><!-- end collapse panel -->
+</div>       
+      <hr>
+
+<!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
