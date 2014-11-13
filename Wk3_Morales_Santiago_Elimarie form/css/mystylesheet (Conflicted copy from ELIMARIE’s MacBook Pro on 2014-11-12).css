@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    padding-top: 50px; 
+	background-image:url(../images/light_grey.png);
+
+}
+
+.form-header {
+    height: 400px;
+    background: url(../images/winefront.png) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.row{
+	padding:12px;
+	}
+	
+.text-justify{
+	color:#EB970E;
+	padding:12px;
+}
+
+.subform{
+	padding:12px;
+	}
+
+.info1{
+	
+	}
+
+.tittle {
+    text-shadow: 0 0 10px #000;
+    color: #C6AA8D;
+}
+
+h2 {
+	color:#632425;
+	}
+	
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
