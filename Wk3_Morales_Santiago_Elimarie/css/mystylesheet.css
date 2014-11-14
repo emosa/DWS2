@@ -31,8 +31,8 @@ body {
 
 img {
     position: absolute;
-    left: 90px;
-    top: 150px;
+    left: 10px;
+    top: 148px;
     z-index: -0;
 	background-color:transparent;
     transform:skewX(-2deg);
@@ -40,19 +40,19 @@ img {
     height: 250px;
     background:transparent;
     position: relative;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
+    -webkit-animation: mymove 4s; 
+    animation: mymove 4s;
 }
 
-/* Chrome, Safari, Opera */
+
 @-webkit-keyframes mymove {
     from {left: 0px;}
-    to {left: 100px;}
+    to {left: 250px;}
 }
 
 @keyframes mymove {
     from {left: 0px;}
-    to {left: 100px;}
+    to {left: 250px;}
 }
 	
 }
