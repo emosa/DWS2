@@ -114,7 +114,7 @@ img {
 }
 
 iframe {
-	border:20px solid #000;
+	border:0px solid #000;
     border-radius: 20px !important;
 }
 
