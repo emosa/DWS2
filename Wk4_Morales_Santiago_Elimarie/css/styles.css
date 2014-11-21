@@ -777,19 +777,19 @@ textarea {
 
 @media all and (max-width: 780px) {
 body {
-    font-size:13px
+    font-size:13px;
 }
 
 h1 {
-    font-size:3.5em
+    font-size:3.5em;
 }
 
 .subHeading {
-    font-size:2em
+    font-size:2em;
 }
 
 .news h3 {
-    font-size:1.3em
+    font-size:1.3em;
 }
 }
 
