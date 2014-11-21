@@ -98,7 +98,12 @@ img {
     font-size:2em;
 }
 
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 46.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
 
 .videoWrapper iframe {
 	position: absolute;
