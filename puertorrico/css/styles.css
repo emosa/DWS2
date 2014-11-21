@@ -114,8 +114,8 @@ img {
 }
 
 iframe {
-	border:0px solid #000;
-    border-radius: 20px !important;
+	border:10px solid #000;
+    border-radius: 10px !important;
 }
 
 
