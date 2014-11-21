@@ -113,7 +113,10 @@ img {
 	height: 100%;
 }
 
-
+iframe {
+	border:10px solid #000;
+    border-radius: 10px !important;
+}
 
 #histp {
     background-image:url(../images/vintage.png)
