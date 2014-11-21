@@ -129,7 +129,6 @@ img {
     -webkit-border-radius:10px 10px 10px 10px;
 }
 
-/* 1 gallery*/
 .imgal {
     background-image:url(../images/stars.png);
 }
@@ -163,17 +162,17 @@ img {
     border:0 solid #000;
 }
 
-/*Selected image display*/
+
 .image-gallery .big-image img:target {
     display:block;
 }
 
-/*display on selected image*/
+
 .image-gallery .big-image img:target ~ img#default {
     display:none;
 }
 
-/*first load image*/
+
 .image-gallery .big-image img#default {
     display:block;
 }
@@ -202,7 +201,7 @@ ul,li {
     text-align:center;
 }
 
-/* end gallery*/
+
 form,fieldset {
     padding:0;
     margin:0;
@@ -217,12 +216,6 @@ form,fieldset {
 
 .hidden {
     display:none;
-}
-
-.box-main:after,.center:after {
-    content:"";
-    clear:both;
-    display:block;
 }
 
 .right {
@@ -550,7 +543,6 @@ textarea {
     border-color:#646E7d;
 }
 
-/*main styles*/
 #header {
     position:fixed;
     z-index:100;
